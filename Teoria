@@ -2,10 +2,22 @@
 Explica con tus palabras, las siguientes preguntas.
 
 - Que es un numero Natural?
+    Son todos los numeros mayores a cero sin decimales.
 
 - Que es una estructura de datos?
+    hace referencia a como organizamos los datos cuando programamos, tratar de encontrar la forma mas eficiente.
 
 - Que es map(), reduce(), filter() y ForEacH() 
 
+    - map() permite recorrer un aray y modificar los elementos presnetes en el, retornando un nuevo array con la misma longitud que el original.
+    - reduce() aplica una funcion a un acumulador y a cada valor de un array (izquierda a derecha) para reducirlo a un unico valor.
+    - filter() recorre el array y retorna un nuevo array con aquellos elementos que pasan una determinada condicion.
+    - forEach() permite iterar el contenido de un araray. Recibe como paramétro el elemnto actual de iteracion y el indice del mismo.
+
 - Explica una situacion en donde usarias cada una de las estructuras mencionadas anteriormente.
+
+    - map() lo usaria por ejemplo para recorrer un array y mostrar algo en pantalla, como un renderizado de react.
+    - reduce() lo usaria cuano tengo un array bde numeros por ejemplo y quiero tener un unico valor de todo ese arreglo.
+    - filter() lo usaria para una barra de busqueda que filtre y busque lo que el usuario vaya ingresando en la barra buscadora.
+    - forEach() lo usaria para saber en que indice se encuentra un elemento, similar a un for.
 
